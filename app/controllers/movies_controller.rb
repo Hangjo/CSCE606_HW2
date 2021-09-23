@@ -7,7 +7,8 @@ class MoviesController < ApplicationController
     end
   
     def index
-      @movies = Movie.all
+      @movies = Movie.order(params[:sortTerm])
+      @selected = params[:sortTerm]
     end
   
     def new
