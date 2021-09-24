@@ -803,3 +803,1024 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.erb within layouts/application (2.2ms)
   Rendered layouts/_flash.erb (0.1ms)
 Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 172.83.47.140 at 2021-09-24 20:44:56 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_flash.erb (0.4ms)
+Completed 200 OK in 297ms (Views: 294.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-c284fe4fd88aa841532284e42bcbf8ae8e3a0ad9d84dab60afbe6ea502f52534.css?body=1" for 172.83.47.140 at 2021-09-24 20:44:56 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 172.83.47.140 at 2021-09-24 20:44:56 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 172.83.47.140 at 2021-09-24 20:44:56 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.83.47.140 at 2021-09-24 20:44:56 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:44:58 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 20:45:00 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 20:46:49 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY release_date[0m
+  Rendered movies/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:46:50 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 20:46:53 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY release_date[0m
+  Rendered movies/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:47:18 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:49:44 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:50:04 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:6: syntax error, unexpected '=', expecting end
+'.freeze; = form_tag movies_path, :metho...
+          ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  Include:
+         ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:9: syntax error, unexpected '='
+    = rating
+    ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:11: syntax error, unexpected '=', expecting end
+  = submit_tag 'Refresh', :class...
+  ^):
+  app/views/movies/index.html.erb:6: syntax error, unexpected '=', expecting end
+  app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  app/views/movies/index.html.erb:9: syntax error, unexpected '='
+  app/views/movies/index.html.erb:11: syntax error, unexpected '=', expecting end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.0ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:53:57 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  Include:
+         ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:9: syntax error, unexpected '='
+    = rating
+    ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:11: syntax error, unexpected '=', expecting ')'
+  = submit_tag 'Refresh', :class...
+  ^):
+  app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  app/views/movies/index.html.erb:9: syntax error, unexpected '='
+  app/views/movies/index.html.erb:11: syntax error, unexpected '=', expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:54:33 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  Include:
+         ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:11: syntax error, unexpected ')', expecting end
+..., :class => 'btn btn-primary' );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:42: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:44: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  app/views/movies/index.html.erb:11: syntax error, unexpected ')', expecting end
+  app/views/movies/index.html.erb:42: syntax error, unexpected ensure, expecting ')'
+  app/views/movies/index.html.erb:44: syntax error, unexpected end, expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 20:56:09 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  Include:
+         ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:9: syntax error, unexpected '='
+    = rating
+    ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:11: syntax error, unexpected '=', expecting ')'
+  = submit_tag 'Refresh', :class...
+  ^):
+  app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  app/views/movies/index.html.erb:9: syntax error, unexpected '='
+  app/views/movies/index.html.erb:11: syntax error, unexpected '=', expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:02:32 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  Include: @all_ratings.each do |rating|
+         ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:8: syntax error, unexpected '='
+    = rating
+    ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:10: syntax error, unexpected '=', expecting ')'
+  = submit_tag 'Refresh', :class...
+  ^):
+  app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  app/views/movies/index.html.erb:8: syntax error, unexpected '='
+  app/views/movies/index.html.erb:10: syntax error, unexpected '=', expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:03:23 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  Include: @all_ratings.each do |rating|
+         ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:10: syntax error, unexpected ')', expecting end
+..., :class => 'btn btn-primary' );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:41: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:43: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  app/views/movies/index.html.erb:7: syntax error, unexpected ':', expecting end
+  app/views/movies/index.html.erb:10: syntax error, unexpected ')', expecting end
+  app/views/movies/index.html.erb:41: syntax error, unexpected ensure, expecting ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected end, expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.8ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:03:43 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:7: syntax error, unexpected tIVAR, expecting end
+  'Include:' @all_ratings.each do |rating|
+             ^~~~~~~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:10: syntax error, unexpected ')', expecting end
+..., :class => 'btn btn-primary' );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:41: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:43: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  app/views/movies/index.html.erb:7: syntax error, unexpected tIVAR, expecting end
+  app/views/movies/index.html.erb:10: syntax error, unexpected ')', expecting end
+  app/views/movies/index.html.erb:41: syntax error, unexpected ensure, expecting ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected end, expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:05:38 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  app/views/movies/index.html.erb:44: syntax error, unexpected end-of-input, expecting end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:06:00 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:44: syntax error, unexpected end-of-input, expecting end):
+  app/views/movies/index.html.erb:44: syntax error, unexpected end-of-input, expecting end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.7ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:06:57 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:45: syntax error, unexpected end-of-input, expecting end):
+  app/views/movies/index.html.erb:45: syntax error, unexpected end-of-input, expecting end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:08:39 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:45: syntax error, unexpected end-of-input, expecting end):
+  app/views/movies/index.html.erb:45: syntax error, unexpected end-of-input, expecting end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.5ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:09:08 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:45: syntax error, unexpected end-of-input, expecting end):
+  app/views/movies/index.html.erb:45: syntax error, unexpected end-of-input, expecting end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.1ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:09:34 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: 
+     6: <%= form_tag movies_path, :method => :get do %>
+     7:   Include:
+     8:   <% @all_ratings.each do |rating| %>
+     9:     <%= rating %>
+    10:     <%= check_box_tag "ratings[#{rating}]" %>
+    11:   <% end %>
+  app/views/movies/index.html.erb:8:in `block in _app_views_movies_index_html_erb__3753254808202467716_69963609849420'
+  app/views/movies/index.html.erb:6:in `_app_views_movies_index_html_erb__3753254808202467716_69963609849420'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:14:59 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `getRatings' for #<Class:0x00007f4358e21358>):
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:15:23 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:16:29 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:16:33 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT distinct(ratings) FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: ratings: SELECT distinct(ratings) FROM "movies"):
+     5: 
+     6: <%= form_tag movies_path, :method => :get do %>
+     7:   Include:
+     8:   <% @all_ratings.each do |rating| %>
+     9:     <%= rating %>
+    10:     <%= check_box_tag "ratings[#{rating}]" %>
+    11:   <% end %>
+  app/views/movies/index.html.erb:8:in `block in _app_views_movies_index_html_erb__3753254808202467716_69963609849420'
+  app/views/movies/index.html.erb:6:in `_app_views_movies_index_html_erb__3753254808202467716_69963609849420'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:16:42 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:22:05 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 17.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:24:46 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36m (0.1ms)[0m  [1mSELECT DISTINCT rating FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting ')'
+...rimary', :id => "ratings_submit" );@output_buffer.safe_appen...
+...                 ^~~~~~~~~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+<table class="table table-striped col-md-12" id=...
+              ^~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+... class="table table-striped col-md-12" id="movies">
+...                            ^~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."table table-striped col-md-12" id="movies">
+...                              ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e-striped col-md-12" id="movies">
+...                         ^~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+...@output_buffer.append=( "hilite" if @sortTerm == "title" );@...
+...                         ^~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."hilite" if @sortTerm == "title" );@output_buffer.safe_appen...
+...                          ^~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:18: syntax error, unexpected tCONSTANT, expecting ')'
+..._buffer.append=( link_to "Movie Title", movies_path(:sortTer...
+...                          ^~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+...movies_path(:sortTerm => "title"), :id => "title_header" );@...
+...                          ^~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "title"), :id => "title_header" );@output_buffer.safe_appen...
+...                   ^~~~~~~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+...@output_buffer.append=( "hilite" if @sortTerm == "release_da...
+...                         ^~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+..." if @sortTerm == "release_date" );@output_buffer.safe_appen...
+...                   ^~~~~~~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+...uffer.append=( link_to "Release Date", movies_path(:sortTerm...
+...                        ^~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+...path(:sortTerm => "release_date"), :id => "release_date_head...
+...                   ^~~~~~~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."), :id => "release_date_header" );@output_buffer.safe_appen...
+...            ^~~~~~~~~~~~~~~~~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:37: syntax error, unexpected tCONSTANT, expecting ')'
+...t_buffer.append=( link_to "More about #{movie.title}", movie...
+...                           ^~~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:38: syntax error, unexpected '<', expecting ')'
+        </td>
+        ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:39: unknown regexp options - tr
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:42: unknown regexp options - tabl
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+...ut_buffer.append=( link_to 'Add new movie', new_movie_path, ...
+...                            ^~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+... new_movie_path, :class => 'btn btn-primary' );@output_buffe...
+...                            ^~~
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:43: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...th, :class => 'btn btn-primary' );@output_buffer.to_s
+...                              ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:46: unterminated string meets end of file
+          end
+              ^
+/home/ec2-user/environment/hw-rails-intro/app/views/movies/index.html.erb:46: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/movies/index.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+  app/views/movies/index.html.erb:15: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/movies/index.html.erb:15: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:18: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:37: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/movies/index.html.erb:38: syntax error, unexpected '<', expecting ')'
+  app/views/movies/index.html.erb:39: unknown regexp options - tr
+  app/views/movies/index.html.erb:42: unknown regexp options - tabl
+  app/views/movies/index.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/movies/index.html.erb:43: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+  app/views/movies/index.html.erb:46: unterminated string meets end of file
+  app/views/movies/index.html.erb:46: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:25:12 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35m (0.2ms)[0m  SELECT DISTINCT rating FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY release_date[0m
+  Rendered movies/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:25:53 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY release_date[0m
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 16.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:26:12 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms)
+
+NoMethodError (undefined method `sort!' for #<Movie::ActiveRecord_Relation:0x00007f435897ff20>):
+  app/models/movie.rb:3:in `getRatings'
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.2ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:26:24 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 18.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:28:26 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/hw-rails-intro/app/models/movie.rb:9: syntax error, unexpected end-of-input, expecting end):
+  app/models/movie.rb:9: syntax error, unexpected end-of-input, expecting end
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:28:35 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `map' for #<Movie id: nil, rating: "G">
+Did you mean?  tap):
+  app/models/movie.rb:6:in `block in getRatings'
+  app/models/movie.rb:5:in `each'
+  app/models/movie.rb:5:in `sort_by'
+  app/models/movie.rb:5:in `getRatings'
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:29:18 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `map' for #<Movie id: nil, rating: "G">
+Did you mean?  tap):
+  app/models/movie.rb:6:in `block in getRatings'
+  app/models/movie.rb:5:in `each'
+  app/models/movie.rb:5:in `sort_by'
+  app/models/movie.rb:5:in `getRatings'
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:31:27 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 16.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:39:08 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT DISTINCT "movies".* FROM "movies"  ORDER BY "movies"."rating" ASC[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:40:04 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 16.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 21:40:22 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY release_date
+  Rendered movies/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 17.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 21:41:50 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 22:13:37 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.0ms)
+
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  app/models/movie.rb:2:in `get_ratings'
+  app/controllers/movies_controller.rb:15:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 22:14:05 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+NoMethodError (undefined method `keys' for nil:NilClass):
+  app/controllers/movies_controller.rb:15:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.2ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 22:15:05 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 18.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=%7B%3Aid%3D%3E%22ratings_G%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:15:09 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"{:id=>\"ratings_G\"}"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT distinct(rating) FROM "movies"[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  app/models/movie.rb:2:in `get_ratings'
+  app/controllers/movies_controller.rb:16:in `index'
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.6/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=%7B%3Aid%3D%3E%22ratings_G%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:15 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"{:id=>\"ratings_G\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'G'[0m
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 15.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=%7B%3Aid%3D%3E%22ratings_G%22%7D&ratings%5BPG-13%5D=%7B%3Aid%3D%3E%22ratings_PG-13%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:18 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"{:id=>\"ratings_G\"}", "PG-13"=>"{:id=>\"ratings_PG-13\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG-13')[0m
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=%7B%3Aid%3D%3E%22ratings_G%22%7D&ratings%5BPG%5D=%7B%3Aid%3D%3E%22ratings_PG%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:22 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"{:id=>\"ratings_G\"}", "PG"=>"{:id=>\"ratings_PG\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG')[0m
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:24 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=%7B%3Aid%3D%3E%22ratings_G%22%7D&ratings%5BPG%5D=%7B%3Aid%3D%3E%22ratings_PG%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:33 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"{:id=>\"ratings_G\"}", "PG"=>"{:id=>\"ratings_PG\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (1.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG')[0m
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=%7B%3Aid%3D%3E%22ratings_PG%22%7D&ratings%5BPG-13%5D=%7B%3Aid%3D%3E%22ratings_PG-13%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:38 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"{:id=>\"ratings_PG\"}", "PG-13"=>"{:id=>\"ratings_PG-13\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')[0m
+  Rendered movies/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:40 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=%7B%3Aid%3D%3E%22ratings_R%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:44 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"{:id=>\"ratings_R\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'R'[0m
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:16:47 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 22:17:10 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.7ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=%7B%3Aid%3D%3E%22ratings_PG%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:17:12 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"{:id=>\"ratings_PG\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG'[0m
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 22:17:14 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=%7B%3Aid%3D%3E%22ratings_PG%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:17:23 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"{:id=>\"ratings_PG\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG'[0m
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 22:17:26 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY release_date[0m
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=%7B%3Aid%3D%3E%22ratings_PG-13%22%7D&commit=Refresh" for 172.83.47.140 at 2021-09-24 22:17:27 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"{:id=>\"ratings_PG-13\"}"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (1.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG-13'[0m
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/movies?sortTerm=title" for 172.83.47.140 at 2021-09-24 22:17:43 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"title"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sortTerm=release_date" for 172.83.47.140 at 2021-09-24 22:17:46 +0000
+Cannot render console from 172.83.47.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MoviesController#index as HTML
+  Parameters: {"sortTerm"=>"release_date"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT distinct(rating) FROM "movies"
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY release_date[0m
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.8ms)

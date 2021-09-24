@@ -7,8 +7,16 @@ class MoviesController < ApplicationController
     end
   
     def index
-      @movies = Movie.order(params[:sortTerm])
-      @selected = params[:sortTerm]
+      @all_ratings = Movie.get_ratings
+      @selectedRatings = params[:ratings]
+      
+      @sortTerm = params[:sortTerm]
+      
+      if @selectedRatings
+        @movies = Movie.with_ratings(@selectedRatings.keys).order(@sortTerm)
+      else
+        @movies = Movie.order(@sortTerm)
+      end
     end
   
     def new
@@ -38,7 +46,7 @@ class MoviesController < ApplicationController
       flash[:notice] = "Movie '#{@movie.title}' deleted."
       redirect_to movies_path
     end
-  
+
     private
     # Making "internal" methods private is not required, but is a common practice.
     # This helps make clear which methods respond to requests, and which ones do not.
