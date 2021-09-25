@@ -2,12 +2,11 @@
 <h2>All Movies</h2>
 
 <%#  Part 2: Start here... %>
-
 <%= form_tag movies_path, :id => "ratings_form", :method => :get do %>
   Include:
   <% @all_ratings.each do |rating| %>
     <%= rating %>
-    <%= check_box_tag "ratings[#{rating}]", :id=>"ratings_#{rating}" %>
+    <%= check_box_tag "ratings[#{rating}]", rating, @selectedRatings.include?(rating), :id=>"ratings_#{rating}" %>
   <% end %>
   <%= submit_tag 'Refresh', :class => 'btn btn-primary', :id => "ratings_submit" %>
 <% end %>

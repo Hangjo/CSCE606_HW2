@@ -8,15 +8,36 @@ class MoviesController < ApplicationController
   
     def index
       @all_ratings = Movie.get_ratings
-      @selectedRatings = params[:ratings]
+      @selectedRatings = @all_ratings
       
       @sortTerm = params[:sortTerm]
       
-      if @selectedRatings
-        @movies = Movie.with_ratings(@selectedRatings.keys).order(@sortTerm)
+      if @sortTerm
+        session[:sortTerm] = @sortTerm
       else
-        @movies = Movie.order(@sortTerm)
+        @sortTerm = session[:sortTerm]
       end
+      
+      if params[:ratings]
+        @selectedRatings = params[:ratings].keys
+        session[:ratings] = @selectedRatings
+      else
+        if session[:ratings]
+          @selectedRatings = session[:ratings]
+        end
+        
+        @ratingsHash = Hash.new(0)
+        
+        @selectedRatings.each do |rating|
+          @ratingsHash[rating] = 1
+        end
+
+        flash.keep
+        redirect_to movies_path(:sortTerm => @sortTerm, :ratings => @ratingsHash)
+      end
+      
+      @movies = Movie.with_ratings(@selectedRatings).order(@sortTerm)
+      
     end
   
     def new
